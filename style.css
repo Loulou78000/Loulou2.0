@@ -34,10 +34,6 @@ h3 {
   font-family: 'Quattrocento', serif;
 }
 
-h4 {
-  font-size: 15px;
-}
-
 a {
   color: white;
   transition: color 0.5s ease;
@@ -109,11 +105,21 @@ a:hover {
   }
 .carte-noire {
   border-radius: 0%;
+
   box-shadow: 10px 10px 30px rgba(50, 50, 50, 0);
 }
 }
 
 @media (max-width : 540px) {
+   h1 {
+    font-size: 140px;
+  }
+  h2 {
+    font-size: 80px;
+  }
+  h3 {
+    font-size: 50px;
+  }
   .container {
     width: 100%;
   }
